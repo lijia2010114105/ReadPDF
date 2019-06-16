@@ -1,0 +1,625 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		9634E00A22A5FFCA00386E7F /* 职场礼仪.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 9634E00922A5FFCA00386E7F /* 职场礼仪.pdf */; };
+		96B350E622A4C37400386A6B /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 96B350E522A4C37400386A6B /* AppDelegate.m */; };
+		96B350E922A4C37400386A6B /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 96B350E822A4C37400386A6B /* ViewController.m */; };
+		96B350EE22A4C37600386A6B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 96B350ED22A4C37600386A6B /* Assets.xcassets */; };
+		96B350F422A4C37600386A6B /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 96B350F322A4C37600386A6B /* main.m */; };
+		96B350FE22A4C37600386A6B /* ReadPDFTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 96B350FD22A4C37600386A6B /* ReadPDFTests.m */; };
+		96B3510922A4C37600386A6B /* ReadPDFUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 96B3510822A4C37600386A6B /* ReadPDFUITests.m */; };
+		96DF975D22A4F0CE00B89A0C /* ReadPDFViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 96DF975C22A4F0CE00B89A0C /* ReadPDFViewController.m */; };
+		96DF976022A4F1D400B89A0C /* ReadPDFTool.m in Sources */ = {isa = PBXBuildFile; fileRef = 96DF975F22A4F1D400B89A0C /* ReadPDFTool.m */; };
+		A83DCD4506E92E15C9973D7A /* libPods-ReadPDF.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 8985A7A640544E81E3E7AE70 /* libPods-ReadPDF.a */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		96B350FA22A4C37600386A6B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 96B350D922A4C37400386A6B /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 96B350E022A4C37400386A6B;
+			remoteInfo = ReadPDF;
+		};
+		96B3510522A4C37600386A6B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 96B350D922A4C37400386A6B /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 96B350E022A4C37400386A6B;
+			remoteInfo = ReadPDF;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		8985A7A640544E81E3E7AE70 /* libPods-ReadPDF.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-ReadPDF.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		9634E00922A5FFCA00386E7F /* 职场礼仪.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = "职场礼仪.pdf"; sourceTree = "<group>"; };
+		96B350E122A4C37400386A6B /* ReadPDF.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ReadPDF.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		96B350E422A4C37400386A6B /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		96B350E522A4C37400386A6B /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		96B350E722A4C37400386A6B /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		96B350E822A4C37400386A6B /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		96B350ED22A4C37600386A6B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		96B350F222A4C37600386A6B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		96B350F322A4C37600386A6B /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		96B350F922A4C37600386A6B /* ReadPDFTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ReadPDFTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		96B350FD22A4C37600386A6B /* ReadPDFTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ReadPDFTests.m; sourceTree = "<group>"; };
+		96B350FF22A4C37600386A6B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		96B3510422A4C37600386A6B /* ReadPDFUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ReadPDFUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		96B3510822A4C37600386A6B /* ReadPDFUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ReadPDFUITests.m; sourceTree = "<group>"; };
+		96B3510A22A4C37600386A6B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		96B3511622A4C56A00386A6B /* Macro.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Macro.h; sourceTree = "<group>"; };
+		96DF975B22A4F0CE00B89A0C /* ReadPDFViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ReadPDFViewController.h; sourceTree = "<group>"; };
+		96DF975C22A4F0CE00B89A0C /* ReadPDFViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ReadPDFViewController.m; sourceTree = "<group>"; };
+		96DF975E22A4F1D400B89A0C /* ReadPDFTool.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ReadPDFTool.h; sourceTree = "<group>"; };
+		96DF975F22A4F1D400B89A0C /* ReadPDFTool.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ReadPDFTool.m; sourceTree = "<group>"; };
+		B46295B186CF04E073119BE6 /* Pods-ReadPDF.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ReadPDF.release.xcconfig"; path = "Pods/Target Support Files/Pods-ReadPDF/Pods-ReadPDF.release.xcconfig"; sourceTree = "<group>"; };
+		E600015B3D9CCE7C974796B4 /* Pods-ReadPDF.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ReadPDF.debug.xcconfig"; path = "Pods/Target Support Files/Pods-ReadPDF/Pods-ReadPDF.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		96B350DE22A4C37400386A6B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A83DCD4506E92E15C9973D7A /* libPods-ReadPDF.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		96B350F622A4C37600386A6B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		96B3510122A4C37600386A6B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		367570371B318D171FC8C869 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				E600015B3D9CCE7C974796B4 /* Pods-ReadPDF.debug.xcconfig */,
+				B46295B186CF04E073119BE6 /* Pods-ReadPDF.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		65280F1F4667AA9846409E9A /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				8985A7A640544E81E3E7AE70 /* libPods-ReadPDF.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		96B350D822A4C37400386A6B = {
+			isa = PBXGroup;
+			children = (
+				96B350E322A4C37400386A6B /* ReadPDF */,
+				96B350FC22A4C37600386A6B /* ReadPDFTests */,
+				96B3510722A4C37600386A6B /* ReadPDFUITests */,
+				96B350E222A4C37400386A6B /* Products */,
+				367570371B318D171FC8C869 /* Pods */,
+				65280F1F4667AA9846409E9A /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		96B350E222A4C37400386A6B /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				96B350E122A4C37400386A6B /* ReadPDF.app */,
+				96B350F922A4C37600386A6B /* ReadPDFTests.xctest */,
+				96B3510422A4C37600386A6B /* ReadPDFUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		96B350E322A4C37400386A6B /* ReadPDF */ = {
+			isa = PBXGroup;
+			children = (
+				9634E00922A5FFCA00386E7F /* 职场礼仪.pdf */,
+				96B350E422A4C37400386A6B /* AppDelegate.h */,
+				96B350E522A4C37400386A6B /* AppDelegate.m */,
+				96B350E722A4C37400386A6B /* ViewController.h */,
+				96B350E822A4C37400386A6B /* ViewController.m */,
+				96DF975B22A4F0CE00B89A0C /* ReadPDFViewController.h */,
+				96DF975C22A4F0CE00B89A0C /* ReadPDFViewController.m */,
+				96B350ED22A4C37600386A6B /* Assets.xcassets */,
+				96B350F222A4C37600386A6B /* Info.plist */,
+				96B350F322A4C37600386A6B /* main.m */,
+				96B3511622A4C56A00386A6B /* Macro.h */,
+				96DF975E22A4F1D400B89A0C /* ReadPDFTool.h */,
+				96DF975F22A4F1D400B89A0C /* ReadPDFTool.m */,
+			);
+			path = ReadPDF;
+			sourceTree = "<group>";
+		};
+		96B350FC22A4C37600386A6B /* ReadPDFTests */ = {
+			isa = PBXGroup;
+			children = (
+				96B350FD22A4C37600386A6B /* ReadPDFTests.m */,
+				96B350FF22A4C37600386A6B /* Info.plist */,
+			);
+			path = ReadPDFTests;
+			sourceTree = "<group>";
+		};
+		96B3510722A4C37600386A6B /* ReadPDFUITests */ = {
+			isa = PBXGroup;
+			children = (
+				96B3510822A4C37600386A6B /* ReadPDFUITests.m */,
+				96B3510A22A4C37600386A6B /* Info.plist */,
+			);
+			path = ReadPDFUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		96B350E022A4C37400386A6B /* ReadPDF */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 96B3510D22A4C37600386A6B /* Build configuration list for PBXNativeTarget "ReadPDF" */;
+			buildPhases = (
+				355F01361FFC353F7E5E2357 /* [CP] Check Pods Manifest.lock */,
+				96B350DD22A4C37400386A6B /* Sources */,
+				96B350DE22A4C37400386A6B /* Frameworks */,
+				96B350DF22A4C37400386A6B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ReadPDF;
+			productName = ReadPDF;
+			productReference = 96B350E122A4C37400386A6B /* ReadPDF.app */;
+			productType = "com.apple.product-type.application";
+		};
+		96B350F822A4C37600386A6B /* ReadPDFTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 96B3511022A4C37600386A6B /* Build configuration list for PBXNativeTarget "ReadPDFTests" */;
+			buildPhases = (
+				96B350F522A4C37600386A6B /* Sources */,
+				96B350F622A4C37600386A6B /* Frameworks */,
+				96B350F722A4C37600386A6B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				96B350FB22A4C37600386A6B /* PBXTargetDependency */,
+			);
+			name = ReadPDFTests;
+			productName = ReadPDFTests;
+			productReference = 96B350F922A4C37600386A6B /* ReadPDFTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		96B3510322A4C37600386A6B /* ReadPDFUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 96B3511322A4C37600386A6B /* Build configuration list for PBXNativeTarget "ReadPDFUITests" */;
+			buildPhases = (
+				96B3510022A4C37600386A6B /* Sources */,
+				96B3510122A4C37600386A6B /* Frameworks */,
+				96B3510222A4C37600386A6B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				96B3510622A4C37600386A6B /* PBXTargetDependency */,
+			);
+			name = ReadPDFUITests;
+			productName = ReadPDFUITests;
+			productReference = 96B3510422A4C37600386A6B /* ReadPDFUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		96B350D922A4C37400386A6B /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 1010;
+				ORGANIZATIONNAME = miniso_lj;
+				TargetAttributes = {
+					96B350E022A4C37400386A6B = {
+						CreatedOnToolsVersion = 10.1;
+					};
+					96B350F822A4C37600386A6B = {
+						CreatedOnToolsVersion = 10.1;
+						TestTargetID = 96B350E022A4C37400386A6B;
+					};
+					96B3510322A4C37600386A6B = {
+						CreatedOnToolsVersion = 10.1;
+						TestTargetID = 96B350E022A4C37400386A6B;
+					};
+				};
+			};
+			buildConfigurationList = 96B350DC22A4C37400386A6B /* Build configuration list for PBXProject "ReadPDF" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 96B350D822A4C37400386A6B;
+			productRefGroup = 96B350E222A4C37400386A6B /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				96B350E022A4C37400386A6B /* ReadPDF */,
+				96B350F822A4C37600386A6B /* ReadPDFTests */,
+				96B3510322A4C37600386A6B /* ReadPDFUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		96B350DF22A4C37400386A6B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9634E00A22A5FFCA00386E7F /* 职场礼仪.pdf in Resources */,
+				96B350EE22A4C37600386A6B /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		96B350F722A4C37600386A6B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		96B3510222A4C37600386A6B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		355F01361FFC353F7E5E2357 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-ReadPDF-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		96B350DD22A4C37400386A6B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				96B350E922A4C37400386A6B /* ViewController.m in Sources */,
+				96B350F422A4C37600386A6B /* main.m in Sources */,
+				96B350E622A4C37400386A6B /* AppDelegate.m in Sources */,
+				96DF975D22A4F0CE00B89A0C /* ReadPDFViewController.m in Sources */,
+				96DF976022A4F1D400B89A0C /* ReadPDFTool.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		96B350F522A4C37600386A6B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				96B350FE22A4C37600386A6B /* ReadPDFTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		96B3510022A4C37600386A6B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				96B3510922A4C37600386A6B /* ReadPDFUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		96B350FB22A4C37600386A6B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 96B350E022A4C37400386A6B /* ReadPDF */;
+			targetProxy = 96B350FA22A4C37600386A6B /* PBXContainerItemProxy */;
+		};
+		96B3510622A4C37600386A6B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 96B350E022A4C37400386A6B /* ReadPDF */;
+			targetProxy = 96B3510522A4C37600386A6B /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		96B3510B22A4C37600386A6B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		96B3510C22A4C37600386A6B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		96B3510E22A4C37600386A6B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E600015B3D9CCE7C974796B4 /* Pods-ReadPDF.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = RUZ88Y2698;
+				INFOPLIST_FILE = ReadPDF/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = yyminisotest.ReadPDF;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		96B3510F22A4C37600386A6B /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B46295B186CF04E073119BE6 /* Pods-ReadPDF.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = RUZ88Y2698;
+				INFOPLIST_FILE = ReadPDF/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = yyminisotest.ReadPDF;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		96B3511122A4C37600386A6B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = RUZ88Y2698;
+				INFOPLIST_FILE = ReadPDFTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = yyminisotest.ReadPDFTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ReadPDF.app/ReadPDF";
+			};
+			name = Debug;
+		};
+		96B3511222A4C37600386A6B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = RUZ88Y2698;
+				INFOPLIST_FILE = ReadPDFTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = yyminisotest.ReadPDFTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ReadPDF.app/ReadPDF";
+			};
+			name = Release;
+		};
+		96B3511422A4C37600386A6B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = RUZ88Y2698;
+				INFOPLIST_FILE = ReadPDFUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = yyminisotest.ReadPDFUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = ReadPDF;
+			};
+			name = Debug;
+		};
+		96B3511522A4C37600386A6B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = RUZ88Y2698;
+				INFOPLIST_FILE = ReadPDFUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = yyminisotest.ReadPDFUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = ReadPDF;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		96B350DC22A4C37400386A6B /* Build configuration list for PBXProject "ReadPDF" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				96B3510B22A4C37600386A6B /* Debug */,
+				96B3510C22A4C37600386A6B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		96B3510D22A4C37600386A6B /* Build configuration list for PBXNativeTarget "ReadPDF" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				96B3510E22A4C37600386A6B /* Debug */,
+				96B3510F22A4C37600386A6B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		96B3511022A4C37600386A6B /* Build configuration list for PBXNativeTarget "ReadPDFTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				96B3511122A4C37600386A6B /* Debug */,
+				96B3511222A4C37600386A6B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		96B3511322A4C37600386A6B /* Build configuration list for PBXNativeTarget "ReadPDFUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				96B3511422A4C37600386A6B /* Debug */,
+				96B3511522A4C37600386A6B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 96B350D922A4C37400386A6B /* Project object */;
+}
