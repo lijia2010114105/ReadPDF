@@ -22,6 +22,7 @@
     
     self.navigationItem.title = @"readPDF";
     
+    
     _dataArray = @[@"本地",@"网络"];
     
     [self createTableView];
